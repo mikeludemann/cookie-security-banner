@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#cookie-law { 
+	width: 100%;
+	background: #000; 
+	margin: 0px auto; 
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	position: absolute;
+	bottom: 0;
+}
+
+#cookie-law p { 
+	padding: 10px; 
+	font-size: 1.0em; 
+	text-align: left; 
+	color :#fff; 
+	margin: 0;
+} 
+
+.information {
+	margin: 10px;
+	width: 100%;
+}
+
+.datasecurity {
+	padding: 10px;
+}
+
+.accept {
+	max-width: 100px;
+}
+
+.button {
+	padding: 10px;
+	background-color: #fff;
+	color: #000;
+}
+
+a {
+	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	.context, .information {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.context {
+		width: 88%;
+	}
+	.information {
+		width: 11%;
+		float: right;
+		margin-top: -48px;
+	}
+}
